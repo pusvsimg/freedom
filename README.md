@@ -1,5 +1,60 @@
 # Freedom Is Coming
 
+A creative redesign based on the content theme of [freedom.gov](https://freedom.gov/), built as an immersive single-page experience using HTML + Three.js.
+
+![Three.js](https://img.shields.io/badge/Three.js-r170-black?logo=threedotjs)
+![HTML](https://img.shields.io/badge/HTML5-single%20file-E34F26?logo=html5&logoColor=white)
+
+## Preview
+
+Open `index.html` to run it directly — no build tools or local server required.
+
+## Design Concept
+
+**"Emergence"** — Amber light emerging from the dark void, symbolizing the awakening of information and freedom.
+
+- Completely original visual design, retaining only the original site's copy theme
+- Warm amber/gold tones (`#d4a060`) instead of the traditional cold tech aesthetic
+- Cinematic opening + interactive 3D scene
+
+## Technical Features
+
+| Feature | Implementation |
+|---------|----------------|
+| 3D Rendering | Three.js + Custom GLSL Shaders |
+| Post-processing | UnrealBloomPass Glow Effect |
+| Particle System | 4000 spiraling fire particles (GPU animated) |
+| Ground | Shader-driven reflective grid + pulsing ripple waves |
+| Orbital Debris | 60 orbiting floating metal cubes |
+| Text Sprites | Canvas texture floating keywords |
+| Opening Animation | CSS curtain split reveal |
+| Interaction | Mouse controls camera orbit, button triggers shockwave |
+
+## Interaction
+
+- **Move Mouse** — Camera follows and orbits the scene
+- **Click "Get Ready"** — Triggers ground pulse shockwave
+
+## Fonts
+
+- **Syne** (800) — Title display font
+- **DM Sans** (300/400) — Body/UI font
+
+## Dependencies
+
+Loaded via CDN, no local installation required:
+
+- [Three.js r170](https://threejs.org/)
+- [Google Fonts](https://fonts.google.com/)
+
+## License
+
+For educational and creative display purposes only.
+
+---
+
+# Freedom Is Coming
+
 基于 [freedom.gov](https://freedom.gov/) 内容主题的创意重新设计，采用 HTML + Three.js 构建的沉浸式单页体验。
 
 ![Three.js](https://img.shields.io/badge/Three.js-r170-black?logo=threedotjs)
